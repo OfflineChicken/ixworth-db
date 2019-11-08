@@ -1,7 +1,4 @@
-CREATE TABLE tasks (
-  field_name TYPE CONSTRAINTS,
-  field_name TYPE(args) CONSTRAINTS
-);
+
 
 -- task table
 -- UID
