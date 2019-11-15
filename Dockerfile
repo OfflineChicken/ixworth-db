@@ -1,5 +1,7 @@
 FROM postgres:12.0-alpine
 
+ENV POSTGRES_DB nest
+
 # The official PostgreSQL Docker image allows you to place SQL files in the 
 # docker-entrypoint-initdb.d folder, and the first time it starts it will 
 # import those SQL files.
